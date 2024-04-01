@@ -1,0 +1,174 @@
+[
+    {
+        "question": "Kdy se Česko stalo součástí Evropské unie?",
+        "answers": [
+            {
+                "text": "2001",
+                "isCorrect": false
+            },
+            {
+                "text": "2007",
+                "isCorrect": false
+            },
+            {
+                "text": "2010",
+                "isCorrect": false
+            },
+            {
+                "text": "2004",
+                "isCorrect": true
+            }
+        ],
+        "explanation": "Česko vstoupilo do EU 1. května 2004 jako součást největšího rozšíření EU, kdy se členy stalo dalších devět zemí."
+    },
+    {
+        "question": "Má ČR zastoupení v Evropské komisi?",
+        "answers": [
+            {
+                "text": "Ano",
+                "isCorrect": true
+            },
+            {
+                "text": "Ne",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Evropskou komisi tvoří 27 komisařů, zástupce má každá z členských zemí EU. Eurokomisařkou za Česko je v současnosti Věra Jourová."
+    },
+    {
+        "question": "Má ČR zastoupení v Evropské radě?",
+        "answers": [
+            {
+                "text": "Ano",
+                "isCorrect": true
+            },
+            {
+                "text": "Ne",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Na Evropské radě se scházejí lídři EU – premiéři a prezidenti. Česko na schůzkách zastupuje premiér."
+    },
+    {
+        "question": "Má ČR zastoupení v Evropském parlamentu?",
+        "answers": [
+            {
+                "text": "Ano",
+                "isCorrect": true
+            },
+            {
+                "text": "Ne",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Ve všech unijních institucích, včetně Evropského parlamentu, má Česko zastoupení. Nyní je v Evropském parlamentu 705 křesel a Česko zastupuje 21 poslanců."
+    },
+    {
+        "question": "Kolik je v Evropském parlamentu českých poslanců?",
+        "answers": [
+            {
+                "text": "11",
+                "isCorrect": false
+            },
+            {
+                "text": "41",
+                "isCorrect": false
+            },
+            {
+                "text": "21",
+                "isCorrect": true
+            },
+            {
+                "text": "81",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Česko zastupuje 21 poslanců. Počet křesel v jednotlivých zemích se rozhoduje před každými volbami."
+    },
+    {
+        "question": "Otevřená otázka: Dokážete vyjmenovat současné české europoslance?",
+        "openEnded": true,
+        "correctAnswer": "ODS – Alexandr Vondra, Veronika Vrecionová, Evžen Tošenovský, Jan Zahradil; ANO – Martin Hlaváček, Ondřej Knotek, Ondřej Kovařík, Dita Charanzová, Martina Dlabajová; Piráti – Marcel Kolaja, Markéta Gregorová, Mikuláš Peksa; KDU-ČSL – Michaela Šojdrová, Tomáš Zdechovský; TOP 09 – Luděk Niedermayer, Jiří Pospíšil; SPD – Ivan David, Hynek Blaško; KSČM – Kateřina Konečná; STAN – Stanislav Polčák; ČSSD – Radka Maxová",
+        "explanation": "Současní čeští europoslanci zastupují různé politické strany a hrají důležitou roli v legislativním procesu EU."
+    },
+    {
+        "question": "Co je to COREPER?",
+        "answers": [
+            {
+                "text": "Výbor velvyslanců členských států",
+                "isCorrect": true
+            },
+            {
+                "text": "Název procedury při schvalování unijní legislativy",
+                "isCorrect": false
+            },
+            {
+                "text": "Koordinační místnost",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "COREPER je tvořený velvyslanci členských zemí při EU, jejichž rolí je připravovat agendu pro zasedání Rady ministrů EU."
+    },
+    {
+        "question": "Co je to trialog?",
+        "answers": [
+            {
+                "text": "Schůzka tří zemí",
+                "isCorrect": false
+            },
+            {
+                "text": "Setkání na kterém zástupci Evropského parlamentu, Rady Evropské unie a Evropské komise dojednají finální podobu unijního nařízení",
+                "isCorrect": true
+            },
+            {
+                "text": "Tři země které po sobě předsedají Radě EU",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Trialog je neformální interinstitucionální jednání, na kterém se rozhoduje o veškeré unijní legislativě."
+    },
+    {
+        "question": "Kterému orgánu předsedalo Česko ve druhé polovině roku 2022?",
+        "answers": [
+            {
+                "text": "Evropské radě",
+                "isCorrect": false
+            },
+            {
+                "text": "Radě Evropy",
+                "isCorrect": false
+            },
+            {
+                "text": "Radě EU",
+                "isCorrect": true
+            }
+        ],
+        "explanation": "Od 1. července 2022 předsedala Česká republika na šest měsíců Radě Evropské unie."
+    },
+    {
+        "question": "Kde se nachází unijní instituce?",
+        "answers": [
+            {
+                "text": "V Bruselu",
+                "isCorrect": false
+            },
+            {
+                "text": "Ve Štrasburku",
+                "isCorrect": false
+            },
+            {
+                "text": "V Lucemburku",
+                "isCorrect": false
+            },
+            {
+                "text": "Ve všech třech městech",
+                "isCorrect": true
+            },
+            {
+                "text": "V Bruselu a Štrasburku",
+                "isCorrect": false
+            }
+        ],
+        "explanation": "Unijní instituce se nacházejí v Bruselu, Štrasburku i Lucemburku. Každé město hostí určité unijní orgány a zasedání."
+    }
+]
