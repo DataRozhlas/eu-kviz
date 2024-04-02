@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="w-full max-w-[620px] mx-auto">
       {questions.map((question, index) => {
-        return <Question key={crypto.randomUUID()} question={question} index={index} evaluated={results.find(result => result.question === index)?.evaluated || false} correct={results.find(result => result.question === index)?.correct} selectedAnswer={results.find(result => result.question === index)?.selectedAnswer} updateResults={updateResults} />
+        return <Question key={crypto.randomUUID()} question={question} index={index} evaluated={results.find(result => result.question === index)?.evaluated || false} correct={results.find(result => result.question === index)?.correct} selectedAnswer={results.find(result => result.question === index)?.selectedAnswer} updateResults={updateResults} results={results} />
       })}
 
     </div>

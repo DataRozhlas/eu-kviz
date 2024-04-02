@@ -86,7 +86,7 @@
         "explanation": "Česko zastupuje 21 poslanců. O počtu křesel v jednotlivých zemích se rozhoduje před každými volbami do Evropského parlamentu. Rozdělení zohledňuje počet obyvatel členských států, ale i potřebu minimálního zastoupení evropských občanů z menších zemí. Tato zásada je zakotvena ve Smlouvě o Evropské unii."
     },
     {
-        "question": "Kdo z následujících politiků není českým europoslancem?",
+        "question": "Kdo z následujících politiků není europoslancem?",
         "answers": [
             {
                 "text": "Veronika Vrecionová (ODS)",
@@ -101,23 +101,19 @@
                 "isCorrect": false
             },
             {
-                "text": "Ondřej Kovařík (ANO)",
+                "text": "Ondřej Kovařík (za ANO)",
                 "isCorrect": false
             },
             {
-                "text": "Martina Dlabajová (za ANO)",
+                "text": "Radka Maxová (za SOCDEM)",
                 "isCorrect": false
             },
             {
-                "text": "Radka Maxová (ČSSD)",
-                "isCorrect": false
-            },
-            {
-                "text": "Všichni uvedení jsou čeští europoslanci",
+                "text": "Všichni uvedení jsou europoslanci",
                 "isCorrect": true
             }
         ],
-        "explanation": "Toto je kompletní seznam současných českých europoslankyň a europoslanců: ODS – Alexandr Vondra, Veronika Vrecionová, Evžen Tošenovský, Jan Zahradil; ANO – Martin Hlaváček, Ondřej Knotek, Ondřej Kovařík + za ANO – Dita Charanzová, Martina Dlabajová; Piráti – Marcel Kolaja, Markéta Gregorová, Mikuláš Peksa; KDU-ČSL – Michaela Šojdrová, Tomáš Zdechovský; TOP 09 – Luděk Niedermayer, Jiří Pospíšil; SPD – Ivan David + za SPD – Hynek Blaško; KSČM – Kateřina Konečná; STAN – Stanislav Polčák; ČSSD – Radka Maxová"
+        "explanation": "Toto je kompletní seznam současných českých europoslankyň a europoslanců: ODS – Alexandr Vondra, Veronika Vrecionová, Evžen Tošenovský, Jan Zahradil; ANO – Martin Hlaváček, Ondřej Knotek + za ANO Ondřej Kovařík + nestraničky za ANO Dita Charanzová a Martina Dlabajová; Piráti – Marcel Kolaja, Markéta Gregorová, Mikuláš Peksa; KDU-ČSL – Michaela Šojdrová, Tomáš Zdechovský; TOP 09 – Luděk Niedermayer, Jiří Pospíšil; SPD – Ivan David + za SPD – Hynek Blaško; KSČM – Kateřina Konečná; STAN – Stanislav Polčák; za SOCDEM – Radka Maxová"
     },
     {
         "question": "Co je to COREPER?",
@@ -145,11 +141,11 @@
                 "isCorrect": false
             },
             {
-                "text": "Setkání na kterém zástupci Evropského parlamentu, Rady Evropské unie a Evropské komise dojednají finální podobu unijního nařízení",
+                "text": "Setkání, na kterém zástupci Evropského parlamentu, Rady Evropské unie a Evropské komise dojednají finální podobu unijního nařízení",
                 "isCorrect": true
             },
             {
-                "text": "Tři země které po sobě předsedají Radě EU",
+                "text": "Tři země, které po sobě předsedají Radě EU",
                 "isCorrect": false
             }
         ],
