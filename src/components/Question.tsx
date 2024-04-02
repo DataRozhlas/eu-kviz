@@ -19,6 +19,8 @@ type Question = {
 
 export default function Question({ question, index }: { question: Question, index: number }) {
 
+    const correctAnswer = question.answers?.find((answer) => answer.isCorrect)?.text
+
     const [selectedAnswer, setSelectedAnswer] = useState<string | undefined>(undefined)
     const [evaluated, setEvaluated] = useState<boolean>(false)
 
@@ -27,7 +29,12 @@ export default function Question({ question, index }: { question: Question, inde
         return () => {
             if (selectedAnswer) {
                 setEvaluated(true)
-                toast.success("Odpověď odeslána")
+                if (correctAnswer !== selectedAnswer) {
+                    toast.error("Špatně")
+                }
+                if (correctAnswer === selectedAnswer) {
+                    toast.success("Správně")
+                }
             }
             if (!selectedAnswer) {
                 toast.warning("Vyberte odpověď")
@@ -37,18 +44,22 @@ export default function Question({ question, index }: { question: Question, inde
 
     return (
         <div key={crypto.randomUUID()}>
-            <h2 className="text-xl font-semibold mb-5">{`${index + 1}. ${question.question}`}</h2>
-            <RadioGroup value={selectedAnswer} onValueChange={(e) => setSelectedAnswer(e)}>
+            <div className="flex justify-between mb-5"><h2 className="text-lg font-semibold">{`${index + 1}. ${question.question}`}</h2>
+                {evaluated && correctAnswer === selectedAnswer && <Badge className="bg-green-600 hover:bg-green-600 self-center ">Správně</Badge>}
+                {evaluated && correctAnswer != selectedAnswer && <Badge variant="destructive" className="self-center ">Špatně</Badge>}
+            </div>
+            <RadioGroup disabled={evaluated} value={selectedAnswer} onValueChange={(e) => setSelectedAnswer(e)}>
                 {question.answers?.map((answer: Answer, i: number) => {
                     return (
-                        <div key={`q${index}a${i}`} className="flex items-center space-x-2">
+                        <div key={`q${index}a${i}`} className={`flex items-center space-x-2 ${evaluated && selectedAnswer === answer.text && correctAnswer != selectedAnswer && "line-through decoration-4 decoration-red-800"}`}>
                             <RadioGroupItem value={answer.text} id={answer.text} />
-                            <Label htmlFor={answer.text}>{answer.text}</Label>
+                            <Label htmlFor={answer.text} className={`${evaluated && correctAnswer === answer.text && "text-green-600"}`}>{answer.text}</Label>
                         </div>
                     )
                 })}
             </RadioGroup>
             {!evaluated && <Button variant="outline" className="mt-5" onClick={submitAnswer()}>Zkontrolovat odpověď</Button>}
+            {evaluated && <p className="mt-5">{question.explanation}</p>}
             <Separator className="my-4" />
         </div>
     )
