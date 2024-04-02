@@ -7,19 +7,19 @@
                 "isCorrect": false
             },
             {
+                "text": "2004",
+                "isCorrect": true
+            },
+            {
                 "text": "2007",
                 "isCorrect": false
             },
             {
                 "text": "2010",
                 "isCorrect": false
-            },
-            {
-                "text": "2004",
-                "isCorrect": true
             }
         ],
-        "explanation": "Česko vstoupilo do EU 1. května 2004 jako součást největšího rozšíření EU, kdy se členy stalo dalších devět zemí."
+        "explanation": "V roce 2004 došlo k dosud největšímu rozšíření EU, její součástí se spolu s Českem stalo dalších devět zemí. Rozšíření o státy střední a východní Evropy konečně uzavřelo rozdělení, k němuž došlo po druhé světové válce. Česko vstoupilo do EU 1. května 2004."
     },
     {
         "question": "Má ČR zastoupení v Evropské komisi?",
@@ -33,7 +33,7 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Evropskou komisi tvoří 27 komisařů, zástupce má každá z členských zemí EU. Eurokomisařkou za Česko je v současnosti Věra Jourová."
+        "explanation": "Evropskou komisi tvoří 27 komisařů, zástupce má každá z členských zemí EU a v čele stojí předseda (aktuálně předsedkyně Ursula von der Leyenová). Komise předkládá legislativu, o které následně jednají další unijní orgány. Jejím úkolem je dohlížet na dodržování práva v EU. Eurokomisařkou za Česko je v současnosti Věra Jourová."
     },
     {
         "question": "Má ČR zastoupení v Evropské radě?",
@@ -47,7 +47,7 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Na Evropské radě se scházejí lídři EU – premiéři a prezidenti. Česko na schůzkách zastupuje premiér."
+        "explanation": "Evropská rada určuje obecné politické směřování a priority EU. Představuje nejvyšší úroveň politické spolupráce mezi unijními zeměmi. Její jednání obvykle probíhají formou summitů, kterým předsedá stálý představitel (v současnosti Charles Michel). Na Evropské radě se scházejí lídři EU – premiéři a prezidenti. Česko na schůzkách zastupuje premiér Petr Fiala."
     },
     {
         "question": "Má ČR zastoupení v Evropském parlamentu?",
@@ -61,7 +61,7 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Ve všech unijních institucích, včetně Evropského parlamentu, má Česko zastoupení. Nyní je v Evropském parlamentu 705 křesel a Česko zastupuje 21 poslanců."
+        "explanation": "Stejně jako ve všech ostatních unijních institucích, také v europarlamentu má Česko zastoupení. Nyní je v Evropském parlamentu 705 křesel. Počet poslanců Evropského parlament se v roce 2024 zvýší na 720, parlament tak chce zohlednit demografické změny v EU od roku 2019. V červnu se konají volby do europarlamentu na další pětiletý mandát."
     },
     {
         "question": "Kolik je v Evropském parlamentu českých poslanců?",
@@ -83,13 +83,41 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Česko zastupuje 21 poslanců. Počet křesel v jednotlivých zemích se rozhoduje před každými volbami."
+        "explanation": "Česko zastupuje 21 poslanců. O počtu křesel v jednotlivých zemích se rozhoduje před každými volbami do Evropského parlamentu. Rozdělení zohledňuje počet obyvatel členských států, ale i potřebu minimálního zastoupení evropských občanů z menších zemí. Tato zásada je zakotvena ve Smlouvě o Evropské unii."
     },
     {
-        "question": "Otevřená otázka: Dokážete vyjmenovat současné české europoslance?",
-        "openEnded": true,
-        "correctAnswer": "ODS – Alexandr Vondra, Veronika Vrecionová, Evžen Tošenovský, Jan Zahradil; ANO – Martin Hlaváček, Ondřej Knotek, Ondřej Kovařík, Dita Charanzová, Martina Dlabajová; Piráti – Marcel Kolaja, Markéta Gregorová, Mikuláš Peksa; KDU-ČSL – Michaela Šojdrová, Tomáš Zdechovský; TOP 09 – Luděk Niedermayer, Jiří Pospíšil; SPD – Ivan David, Hynek Blaško; KSČM – Kateřina Konečná; STAN – Stanislav Polčák; ČSSD – Radka Maxová",
-        "explanation": "Současní čeští europoslanci zastupují různé politické strany a hrají důležitou roli v legislativním procesu EU."
+        "question": "Kdo z následujících politiků není českým europoslancem?",
+        "answers": [
+            {
+                "text": "Veronika Vrecionová (ODS)",
+                "isCorrect": false
+            },
+            {
+                "text": "Martin Hlaváček (ANO)",
+                "isCorrect": false
+            },
+            {
+                "text": "Ondřej Knotek (ANO)",
+                "isCorrect": false
+            },
+            {
+                "text": "Ondřej Kovařík (ANO)",
+                "isCorrect": false
+            },
+            {
+                "text": "Martina Dlabajová (za ANO)",
+                "isCorrect": false
+            },
+            {
+                "text": "Radka Maxová (ČSSD)",
+                "isCorrect": false
+            },
+            {
+                "text": "Všichni uvedení jsou čeští europoslanci",
+                "isCorrect": true
+            }
+        ],
+        "explanation": "Toto je kompletní seznam současných českých europoslankyň a europoslanců: ODS – Alexandr Vondra, Veronika Vrecionová, Evžen Tošenovský, Jan Zahradil; ANO – Martin Hlaváček, Ondřej Knotek, Ondřej Kovařík + za ANO – Dita Charanzová, Martina Dlabajová; Piráti – Marcel Kolaja, Markéta Gregorová, Mikuláš Peksa; KDU-ČSL – Michaela Šojdrová, Tomáš Zdechovský; TOP 09 – Luděk Niedermayer, Jiří Pospíšil; SPD – Ivan David + za SPD – Hynek Blaško; KSČM – Kateřina Konečná; STAN – Stanislav Polčák; ČSSD – Radka Maxová"
     },
     {
         "question": "Co je to COREPER?",
@@ -107,7 +135,7 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "COREPER je tvořený velvyslanci členských zemí při EU, jejichž rolí je připravovat agendu pro zasedání Rady ministrů EU."
+        "explanation": "Název COREPER vychází z francouzského Comité des représentants permanents (anglicky Committee of Permanent Representatives), je tvořený velvyslanci členských zemí při Evropské unii v Bruselu nebo jejich zástupci. Jejich rolí je připravovat agendu pro zasedání Rady ministrů EU. COREPER má dva formáty Coreper I (otázky zemědělství, sociální politiky nebo dopravy) a Coreper II (zahraniční věci, finance nebo spravedlnost)."
     },
     {
         "question": "Co je to trialog?",
@@ -125,7 +153,7 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Trialog je neformální interinstitucionální jednání, na kterém se rozhoduje o veškeré unijní legislativě."
+        "explanation": "Trialog, tedy třístranné jednání. V rámci legislativního postupu Evropské unie trialog znamená neformální interinstitucionální jednání, na kterém se scházejí zástupci Evropského parlamentu, Rady Evropské unie (unijní ministři) a Evropské komise. Prakticky se na nich rozhoduje veškerá unijní legislativa. Následná hlasování pak už bývají jen formalitou."
     },
     {
         "question": "Kterému orgánu předsedalo Česko ve druhé polovině roku 2022?",
@@ -143,7 +171,7 @@
                 "isCorrect": true
             }
         ],
-        "explanation": "Od 1. července 2022 předsedala Česká republika na šest měsíců Radě Evropské unie."
+        "explanation": "Od 1. července 2022 předsedala Česká republika na šest měsíců Radě Evropské unie. V Radě EU se scházejí ministři vlád všech členských zemí, aby projednávali, pozměňovali a schvalovali právní předpisy a koordinovali jednotlivé politiky. Schází se v 10 různých složení – jiné mají například ministři financí, zahraničních věcí nebo dopravy. V čele je příslušný ministr ze země, která právě zastává rotující předsednictví EU."
     },
     {
         "question": "Kde se nachází unijní instituce?",
@@ -169,6 +197,6 @@
                 "isCorrect": false
             }
         ],
-        "explanation": "Unijní instituce se nacházejí v Bruselu, Štrasburku i Lucemburku. Každé město hostí určité unijní orgány a zasedání."
+        "explanation": "Brusel je srdcem unijních institucí, ale orgány EU jsou také ve Štrasburku, zasedání se konají v průběhu roku také v Lucemburku. Kořeny této roztříštěnosti je třeba hledat v historii. Sídlo Evropské komise je v Bruselu, stejně jako většina zasedání Evropské rady a Rady EU (s výjimkou tří měsíců – dubna, června a října, kdy se konají v Lucemburku). Evropský parlament má sídlo ve Štrasburku, dodatečná dílčí zasedání se konají v Bruselu, stejně jako parlamentní výbory, sekretariát a podpůrná oddělení europarlamentu jsou v Lucemburku."
     }
 ]
