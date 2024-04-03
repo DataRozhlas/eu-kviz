@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { Toaster } from "@/components/ui/sonner"
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-    <Toaster position="top-center" toastOptions={{
+    <Toaster position="bottom-center" toastOptions={{
       classNames: {
         error: 'bg-red-50 text-red-700',
         success: 'bg-green-50 text-green-700',
