@@ -7,7 +7,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-    <Toaster toastOptions={{
+    <Toaster position="top-center" toastOptions={{
       classNames: {
         error: 'bg-red-50 text-red-700',
         success: 'bg-green-50 text-green-700',

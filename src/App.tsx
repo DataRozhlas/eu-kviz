@@ -12,7 +12,7 @@ import './App.css'
 function App() {
 
   const [results, setResults] = useState<{ question: number; correct: boolean; selectedAnswer: string, evaluated: boolean }[]>([]);
-  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-kalkulacka`);
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`eu-kviz`);
 
 
   const updateResults = useCallback((index: number, correct: boolean, selectedAnswer: string, evaluated: boolean) => {
