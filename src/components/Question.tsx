@@ -56,7 +56,7 @@ export default function Question({ question, index, evaluated, correct, selected
                 <div className="flex-shrink-0">
                     {evaluated && correct && <Badge className="bg-green-600 hover:bg-green-600 self-center text-base">Správně</Badge>}
                     {evaluated && !correct && <Badge variant="destructive" className="self-center ml-2 text-base">Špatně</Badge>}
-                    {!evaluated && <Badge className="invisible text-base">Placeholder</Badge>}
+                    {!evaluated && <Badge className="invisible text-base">Správně</Badge>}
                 </div>
             </div>
             <div className="ml-2">
@@ -73,7 +73,7 @@ export default function Question({ question, index, evaluated, correct, selected
             </div>
             {!evaluated && <Button variant="outline" className="mt-5 cursor-pointer" onClick={submitAnswer()}>Zkontrolovat odpověď</Button>}
             {evaluated && <p className="mt-5">{question.explanation}</p>}
-            <Separator className="my-4" />
+            <Separator className="mt-6 mb-8" />
         </div>
     )
 }
